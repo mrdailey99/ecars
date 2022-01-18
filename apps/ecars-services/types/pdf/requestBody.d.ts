@@ -13,7 +13,8 @@ export interface RequestBodySchema {
         | 'VIP Black'
         | 'Pulsar Red'
         | 'Deep Blue'
-        | 'Modern Green';
+        | 'Modern Green'
+        | 'Provar Pink';
     interiorColor: 'Vegan Black' | 'Vegan White' | 'Vegan Tan';
     wheels?: 'Standard' | 'Premium';
     leadRecordId: string;

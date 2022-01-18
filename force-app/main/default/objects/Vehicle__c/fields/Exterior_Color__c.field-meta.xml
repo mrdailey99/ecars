@@ -36,6 +36,11 @@
                 <default>false</default>
                 <label>Modern Green</label>
             </value>
+            <value>
+                <fullName>Provar_Pink</fullName>
+                <default>false</default>
+                <label>Provar Pink</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

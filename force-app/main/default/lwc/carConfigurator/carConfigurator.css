@@ -131,6 +131,13 @@ div.tan,
 a.color-option.tan > div {
     background: linear-gradient(#ddc9a5, #b8915b);
 }
+ 
+/* Add Provar car colors */
+
+div.pink,
+a.color-option.pink > div {
+    background: linear-gradient(#d7187e,#ea0a8c);
+}    
 
 .row {
     display: flex;

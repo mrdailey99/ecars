@@ -45,6 +45,12 @@ export default class Configurator extends LightningElement {
             code: 'green',
             price: 2000,
             className: 'color-option green'
+        },
+        {
+            label: 'Provar Pink',
+            code: 'pink',
+            price: 3000,
+            className: 'color-option pink'
         }
     ];
 

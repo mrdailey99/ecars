@@ -37,6 +37,10 @@ const lookup = {
         'Modern Green': {
             text: 'Modern Green',
             image: `${PATH_PREFIX}/Car/Exterior/green.jpg`
+        },
+        'Provar Pink': {
+            text: 'Provar Pink',
+            image: `${PATH_PREFIX}/Car/Exterior/pink.jpg`
         }
     },
     interiorColor: {
@@ -68,7 +72,8 @@ const lookup = {
         'VIP Black': `${PATH_PREFIX}/Car/black.png`,
         'Pulsar Red': `${PATH_PREFIX}/Car/red.png`,
         'Deep Blue': `${PATH_PREFIX}/Car/blue.png`,
-        'Modern Green': `${PATH_PREFIX}/Car/green.png`
+        'Modern Green': `${PATH_PREFIX}/Car/green.png`,
+        'Provar Pink': `${PATH_PREFIX}/Car/pink.png`
     }
 };
 
