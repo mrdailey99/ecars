@@ -84,6 +84,9 @@ export default class Configurator extends LightningElement {
         if (this.currentSection === 3) {
             return `${BASE_IMAGE_URL}/car_interior_${this.selectedInteriorColor.code}.jpg`;
         } else if (this.currentSection === 2 || this.currentSection === 4) {
+            if (this.selectedExteriorColor.code === 'pink') {
+                return `https://i.postimg.cc/kXk58RYP/pink.jpg`;
+            }
             return `${BASE_IMAGE_URL}/car_${this.selectedExteriorColor.code}.jpg`;
         }
         return `${BASE_IMAGE_URL}/car_white.jpg`;
