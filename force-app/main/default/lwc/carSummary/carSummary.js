@@ -24,9 +24,6 @@ export default class CarSummary extends LightningElement {
     }
 
     get imgUrl() {
-        if (this.selectedExteriorColor.code === 'pink') {
-            return 'https://i.postimg.cc/kXk58RYP/pink.jpg';
-        }
         return `${BASE_IMAGE_URL}/car_${this.selectedExteriorColor.code}.jpg`;
     }
 }

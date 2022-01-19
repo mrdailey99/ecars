@@ -62,21 +62,6 @@
             "Interior_Color__c": "Vegan_Black",
             "Wheels__c": "Aero",
             "Status__c": "Sold"
-        },
-        {
-            "attributes": {
-                "type": "Vehicle__c",
-                "referenceId": "VehicleRef5"
-            },
-            "VIN__c": "256385652209553",
-            "Model__c": "Model Three",
-            "Year__c": "2020",
-            "Package__c": "Performance",
-            "Range__c": "Long Range",
-            "Exterior_Color__c": "Provar_Pink",
-            "Interior_Color__c": "Vegan_Black",
-            "Wheels__c": "Aero",
-            "Status__c": "Sold"
         }
     ]
 }
