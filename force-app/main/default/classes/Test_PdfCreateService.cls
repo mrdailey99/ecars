@@ -17,7 +17,7 @@ public with sharing class Test_PdfCreateService {
         Lead lead = [SELECT Id FROM Lead LIMIT 1];
 
         PdfCreateService.ServiceInput input = new PdfCreateService.ServiceInput();
-        input.exteriorColor = 'VIP Black';
+        input.exteriorColor = 'Provar Pink';
         input.interiorColor = 'Modern Tan';
         input.range = 'Long Range';
         input.price = 45001;
@@ -39,7 +39,7 @@ public with sharing class Test_PdfCreateService {
         Lead lead = [SELECT Id FROM Lead LIMIT 1];
 
         PdfCreateService.ServiceInput input = new PdfCreateService.ServiceInput();
-        input.exteriorColor = 'VIP Black';
+        input.exteriorColor = 'Provar Pink';
         input.interiorColor = 'Modern Tan';
         input.range = 'Long Range';
         input.price = 45000;

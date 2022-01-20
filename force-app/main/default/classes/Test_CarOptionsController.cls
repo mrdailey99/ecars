@@ -13,7 +13,7 @@ public class Test_CarOptionsController {
         Car_Options__c options = new Car_Options__c(
             Car_Configuration__c = configuration.Id,
             Range__c = 'Long_Range',
-            Exterior_Color__c = 'VIP_Black',
+            Exterior_Color__c = 'Provar_Pink',
             Interior_Color__c = 'Vegan_Tan'
         );
 
@@ -40,7 +40,7 @@ public class Test_CarOptionsController {
         Test.stopTest();
 
         System.assertEquals(options.Range__c, 'Long Range');
-        System.assertEquals(options.Exterior_Color__c, 'VIP Black');
+        System.assertEquals(options.Exterior_Color__c, 'Provar Pink');
         System.assertEquals(options.Interior_Color__c, 'Vegan Tan');
     }
 
@@ -57,7 +57,7 @@ public class Test_CarOptionsController {
         Test.stopTest();
 
         System.assertEquals(options.Range__c, 'Long Range');
-        System.assertEquals(options.Exterior_Color__c, 'VIP Black');
+        System.assertEquals(options.Exterior_Color__c, 'Provar Pink');
         System.assertEquals(options.Interior_Color__c, 'Vegan Tan');
     }
 }

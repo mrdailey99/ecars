@@ -7,7 +7,7 @@ public class Test_InventoryController {
         for (Integer i = 0; i < 25; i++) {
             vehicles.add(
                 new Vehicle__c(
-                    Exterior_Color__c = 'Pulsar_Red',
+                    Exterior_Color__c = 'Provar_Pink',
                     Interior_Color__c = 'Vegan_Tan',
                     Model__c = 'Model One',
                     Status__c = 'Available',
@@ -33,7 +33,7 @@ public class Test_InventoryController {
 
         Test.stopTest();
 
-        System.assertEquals(vehicle.Exterior_Color__c, 'Pulsar_Red');
+        System.assertEquals(vehicle.Exterior_Color__c, 'Provar_Pink');
         System.assertEquals(vehicle.Interior_Color__c, 'Vegan_Tan');
         System.assertEquals(vehicle.Model__c, 'Model One');
         System.assertEquals(vehicle.Status__c, 'Available');

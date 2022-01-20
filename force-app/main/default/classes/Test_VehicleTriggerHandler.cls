@@ -5,7 +5,7 @@ private class Test_VehicleTriggerHandler {
         for (Integer i = 0; i < numberofVehicles; i++) {
             vehicles.add(
                 new Vehicle__c(
-                    Exterior_Color__c = 'Pulsar_Red',
+                    Exterior_Color__c = 'Provar_Pink',
                     Interior_Color__c = 'Vegan_Tan',
                     Model__c = 'Model One',
                     Status__c = 'Available',
